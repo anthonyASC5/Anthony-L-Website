@@ -1,0 +1,141 @@
+*{
+margin:0;
+padding:0;
+background-image: url(https://images.unsplash.com/photo-1516527547813-14b9fc6e7f28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+background-position: center;
+background-size:contain;
+text-decoration-line: none;
+}
+
+
+
+
+.header{
+    margin: none;
+    padding-bottom: 17px;
+    background:url(header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:150px;
+
+}
+
+.link{
+    font-size: 50px;
+    color:white;
+    text-decoration-line: none;
+    background:rgba(119, 118, 118, 0.719);
+    border: 3px solid rgba(212, 0, 255, 0.582);   
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+#LOGO{
+    width: 170px;
+    height:100px;
+    display:flex;
+    align-items: flex-start;
+}
+
+#LOGO:hover{
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+/* Title */
+
+.toptext{ 
+    font-size: 15px;
+    font-style:bold;
+    font-family: 'Righteous', cursive;  
+    background: transparent;
+    color:yellow;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.top{ 
+    display:flex;
+    flex-direction: row;
+    
+}
+
+#one{  
+    margin-top:6px;
+    width: 450px;
+    height:450px;
+    display:flex;
+    align:flex-start;
+    flex-wrap: wrap;
+    
+}
+
+#one:hover{
+    box-shadow:
+                3px 3px #53a7ea,
+                3px 3px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+}
+
+#me2{
+    margin-top:6px;
+    width: 360px;
+    height:450px;
+    display: flex;
+    justify-content: flex-end;
+
+} 
+
+#me2:hover{
+    box-shadow:
+    3px 3px #53a7ea,
+    3px 3px #53a7ea,
+    3px 3px #53a7ea;
+-webkit-transform: translateX(-10px);
+transform: translateX(-10px);
+}
+
+
+/* names */
+.text{
+    font-size: 30px;
+    color:rgb(251, 255, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Bubblegum Sans', cursive;
+    text-decoration-line: none;
+}
+
+
+/* pictures */
+
+.pics{
+    width: 310.5px;
+    height:310.5px;
+    box-shadow: 0px 5px 10px ;
+    margin-top: 5px;
+    opacity:0.9;
+    display:wrap;
+    flex-wrap: wrap;
+}
+.pics:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity:1;
+    flex-wrap: wrap;
+}
+
+.ban{
+    width: 320px;
+    height:90px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
